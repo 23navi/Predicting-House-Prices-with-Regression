@@ -40,4 +40,4 @@ def compare_predictions(preds1, preds2, y_test):
     plt.plot([y_min, y_max], [y_min, y_max], 'b--')
     plt.legend()
     plt.show()
-    return
+    
